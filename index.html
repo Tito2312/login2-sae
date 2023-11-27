@@ -15,14 +15,22 @@
         <div class="section">
             <h1>Bienvenido a <strong>SAE</strong></h1>
             <span class="viewF">Ingrese su correo electrónico</span>
-            <span class="hiddenF">Ingrese su contraseña</span>
-
+            <div class="back hiddenF">
+              <i class=" fa-solid fa-angle-left" id="arrowBack"></i>
+              <span class="hiddenF">Ingrese su contraseña</span>
+            </div> 
+            
+            <p class="viewF" id="WrongE"></p>
             <div class="div-input">
               <i class="fa-regular fa-user viewF"></i>
               <input class="viewF" type="email" placeholder="Correo electrónico">
             </div>
-
-            <div class="hiddenF" id="div-password">
+            
+            <div class="hiddenF div-password">
+              <i class="fa-regular fa-user"></i>
+              <p class="hiddenF" id="spanC"></p>
+            </div>
+            <div class="hiddenF div-password">
               <i class="fa-solid fa-lock"></i>
               <input class="hiddenF" type="password" placeholder="Contraseña">
             </div>

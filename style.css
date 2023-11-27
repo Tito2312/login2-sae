@@ -66,12 +66,44 @@ body{
     border-radius: 18px 0 0 18px;
 }
 
-#div-password{
-    width: 80%;
-    flex-direction: row;
+.back{
+    width: 75%;
+    display: flex;
+    align-items: center; 
 }
 
-#div-password i{
+.back i{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+#WrongE{
+    margin: 0 420px 0 0;
+    padding: 0;
+    font-size: 10px;
+    color: red;
+}
+
+.div-password{
+    width: 80%;
+    height: 56px;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.div-password p{
+    width: 90%;
+    height: 56px;
+    border-radius: 0 18px 18px 0;
+    font-size: 16px;
+    padding: 14px;
+    border: none;
+    background-color: #f6f6f4;
+    margin: 0;
+    justify-content: flex-start !important;
+}
+
+.div-password i{
     width: 10%;
     height: 100%;
     display: flex;
@@ -98,6 +130,8 @@ body{
     border: none;
     color: #fff;
     background-color: #3d9cb2;
+    align-items: center;
+    justify-content: center;
 }
 
 .hiddenF{
